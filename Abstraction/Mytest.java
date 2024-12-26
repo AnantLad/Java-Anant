@@ -5,7 +5,7 @@ package Abstraction;
 }
 class SBIread implements Mytest {
   public void write(){
-  System.out.println("it is not allowed in abstract class or method.we cannot call this method");
+  System.out.println("SBIwrite");
 }
 public void read(){
     System.out.println("SBIread");
