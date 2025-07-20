@@ -1,4 +1,4 @@
-package CollectionFramework;
+
 
 public class MaxProductOfSubarray {
     static long maxProduct(int [] arr){

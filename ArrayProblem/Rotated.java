@@ -1,4 +1,4 @@
-package CollectionFramework;
+// package CollectionFramework;
 
 public class Rotated {
     static int findMin(int[] arr){
@@ -9,7 +9,6 @@ public class Rotated {
                 return low;
 
             int mid = (low + high)/2;
-            
             if(arr[mid] > arr[high])
                 low = mid + 1;
 
@@ -21,7 +20,7 @@ public class Rotated {
     }
 
     public static void main(String[] args) {
-        int [] arr = {5,6,7,8,1,2,3,4};
+        int [] arr = {5,6,1,2,3,4};
         System.out.println(findMin(arr));
     }
 }
