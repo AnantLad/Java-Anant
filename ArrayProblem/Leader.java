@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 // import java.util.Collections;
+ import java.util.Collections;
 
 
 public class Leader {
@@ -14,10 +15,12 @@ public class Leader {
             }
         }
     //   Collections.reverse(Ans); 
+       Collections.reverse(Ans); 
       return Ans ; 
     }
     public static void main(String[] args) {
         int [] arr = {10,23,14,6,0,5,};
+        int [] arr = {10,23,14,6,5};
         ArrayList<Integer> Leader = leader_element(arr);
         System.out.println(Leader);
     }
