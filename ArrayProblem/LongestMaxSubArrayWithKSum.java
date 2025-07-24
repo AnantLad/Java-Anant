@@ -1,4 +1,4 @@
-public class LongestMaxSubArrayWithKSum{
+public class LongestMaxSubArrayWithKSum {
     
     static int MaxSubArrayWithKSum(int [] arr , int k){
         int right = 0 , left = 0;
